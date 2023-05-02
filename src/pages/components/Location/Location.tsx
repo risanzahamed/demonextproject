@@ -1,5 +1,5 @@
 import Image from "next/image";
-import map from '../../assets/location/map.jpg';
+import map from '../../../assets/location/map.jpg';
 function Location() {
     return (
         <div className="relative flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-32  md:px-8 sm:max-w-xl md:max-w-full bg-slate-50">

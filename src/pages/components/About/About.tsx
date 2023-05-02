@@ -1,8 +1,8 @@
 import Image from "next/image";
-import brand from  "../../assets/about/about.jpg";
-import icon1 from "../../assets/about/icon1.jpg";
-import icon2 from "../../assets/about/icon2.jpg";
-import dp from "../../assets/about/dp.jpg";
+import brand from  "../../../assets/about/about.jpg";
+import icon1 from "../../../assets/about/icon1.jpg";
+import icon2 from "../../../assets/about/icon2.jpg";
+import dp from "../../../assets/about/dp.jpg";
 
  
 function About() {
