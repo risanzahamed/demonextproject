@@ -107,7 +107,7 @@ function Services() {
             <div>
 		</div>
 	</div>
-    <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row  shadow-md  border-gray-300 ">
+    <div className="flex flex-col overflow-hidden rounded-md lg:flex-row  shadow-md  border-gray-300 ">
 			<Image src={categories[1].img} alt="" className=" dark:bg-gray-500 " />
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 			
@@ -118,7 +118,7 @@ function Services() {
             <div>
 		</div>
 	</div>
-    <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row  shadow-md  border-gray-300 ">
+    <div className="flex flex-col overflow-hidden rounded-md  lg:flex-row  shadow-md  border-gray-300 ">
 			<Image src={categories[2].img} alt="" className=" dark:bg-gray-500 " />
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 			
@@ -129,7 +129,7 @@ function Services() {
             <div>
 		</div>
 	</div>
-    <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row  shadow-md  border-gray-300 ">
+    <div className="flex flex-col overflow-hidden rounded-md  lg:flex-row  shadow-md  border-gray-300 ">
 			<Image src={categories[3].img} alt="" className=" dark:bg-gray-500 " />
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 			
@@ -140,7 +140,7 @@ function Services() {
             <div>
 		</div>
 	</div>
-    <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row  shadow-md  border-gray-300 ">
+    <div className="flex flex-col overflow-hidden rounded-md  lg:flex-row  shadow-md  border-gray-300 ">
 			<Image src={categories[4].img} alt="" className=" dark:bg-gray-500 " />
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 			
@@ -152,7 +152,7 @@ function Services() {
 		</div>
 	
 	</div>
-    <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row  shadow-md  border-gray-300 ">
+    <div className="flex flex-col overflow-hidden rounded-md  lg:flex-row  shadow-md  border-gray-300 ">
 			<Image src={categories[5].img} alt="" className=" dark:bg-gray-500 " />
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 			
