@@ -24,7 +24,7 @@ function About() {
           <div className="lg:pr-5 lg:max-w-lg lg:mb-0">
             <div className="max-w-xl mb-6">
               <div>
-                <p className="inline-block px-3  mb-4 text-xs font-semibold tracking-wider text-secondary-400 uppercase rounded-full bg-teal-accent-400 underline">
+                <p className="inline-block px-3  mb-4 text-xs font-semibold tracking-wider text-secondary-300 uppercase rounded-full bg-teal-accent-400 underline">
                  About Creatix
                 </p>
               </div>
