@@ -7,7 +7,7 @@ import { BsLinkedin } from 'react-icons/bs';
 export default function Header() {
   return <section>
     <div>
-      <div className='flex justify-around items-center container mx-auto py-4'>
+      <div className='flex justify-between items-center container mx-auto py-4'>
           <p className='text-5xl font-sans text-[#F53760] font- font-semibold '>Creatix</p>
           <div className='flex justify-around items-center gap-4'>
             <p className='text-xl'>Home</p>
