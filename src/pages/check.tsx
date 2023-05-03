@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import About from './components/About/About';
 import Location from './components/Location/Location';
@@ -15,6 +16,11 @@ const check = () => {
        <Blog></Blog>
       <Location></Location>
       <Services></Services>
+=======
+const check = () => {
+  return (
+    <div>
+>>>>>>> d8adc534f25257a5b226cc3606c40eb81fae0f49
     </div>
   );
 };
