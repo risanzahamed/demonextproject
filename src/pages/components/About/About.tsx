@@ -10,17 +10,9 @@ function About() {
  
 
 
-      <div className="grid grid-cols-2 gap-10">
-        {/* <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
-
-          <Image
-          
-            src={brand}
-            className="object-left w-full h-auto lg:w-auto lg:h-full"
-            alt=""
-          />
-        </div> */}
-        <div className="grid place-items-center sm:col-span-1">
+      <div className="grid grid-cols-2 gap-10 ">
+       
+        <div className="grid place-items-center sm:col-span-1 ">
         <Image
           
           src={brand}
