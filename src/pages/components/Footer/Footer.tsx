@@ -1,9 +1,7 @@
-import {  BsLinkedin } from "react-icons/bs";
-import { FiFacebook } from "react-icons/fi";
-import { GrTwitter } from "react-icons/gr";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillTwitterSquare } from "react-icons/ai";
-import { BsEnvelopeOpen } from "react-icons/bs";
+import { BsEnvelopeOpen, BsLinkedin } from 'react-icons/bs';
+import { ImFacebook } from 'react-icons/im';
+import { GrTwitter } from 'react-icons/gr';
+import { AiFillInstagram, AiFillTwitterSquare } from 'react-icons/ai';
 
 export default function Footer() {
   return (
@@ -16,7 +14,7 @@ export default function Footer() {
             itaque. Consequuntur atque corrupti
           </p>
           <div className="flex justify-start items-center gap-2 bg-[#191C2D] text-white">
-            <FiFacebook className="text-xl bg-[#454756]" />
+            <ImFacebook className="text-xl bg-[#454756]" />
             <GrTwitter className="text-xl bg-[#454756]" />
             <BsLinkedin className="text-xl bg-[#454756]" />
             <AiFillInstagram className="text-xl bg-[#454756]" />
