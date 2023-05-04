@@ -1,0 +1,15 @@
+.login_bg {
+  background-image: url("../assets/Login&signup/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: full;
+  height: 100vh;
+}
+
+.signup_bg {
+  background-image: url("../assets/Login&signup/signup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: full;
+  height: 100vh;
+}

@@ -12,7 +12,7 @@ const source = Source_Sans_Pro({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={`${source.variable} font-sans`}>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </main>
   );
 }
