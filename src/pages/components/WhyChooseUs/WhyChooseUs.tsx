@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Choose from "../../../assets/WhyChooseUs.svg";
 
-export default function WhyChooseUs() {
+const WhyChooseUs = () => {
   return (
-    <section className="py-16">
+        <section className="py-16">
       <div className="flex container mx-auto">
         <div className="w-1/2">
           <Image
@@ -50,4 +50,6 @@ export default function WhyChooseUs() {
       </div>
     </section>
   );
-}
+};
+
+export default WhyChooseUs;
