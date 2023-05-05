@@ -15,7 +15,7 @@ interface Props {
 
 
 const WorkingProcessCard =  ({ work }: Props)  => {
-  const {  img, title, details } = work;
+  const {   title, details } = work;
 
   const imageStyle: CSSProperties = {
     width: "200px",
@@ -27,7 +27,7 @@ const WorkingProcessCard =  ({ work }: Props)  => {
       <div className="w-96 p-5 flex flex-col justify-center items-center hover:border border-yellow-800">
         <div>
           <Image
-            src={img}
+            src={work.img}
             width={200}
             height={250}
             alt=""
