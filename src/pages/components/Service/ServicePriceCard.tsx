@@ -13,15 +13,14 @@ interface Props {
 
 let ServicePriceCard= ({ price }: Props) => {
 
-  const {id} = price
-  console.log(id);
+
   return (
     <div className=" lg:my-10">
       <div className="card  bg-base-100 p-3 lg:p-6 shadow-xl">
         <div className="card-body">
           <div className="grid grid-cols-2 lg:gap-14 items-center">
             <h2 className="lg:text-5xl text-2xl font-bold lg:font-bold">
-              ${id}
+              ${price.id}
             </h2>
             <p className="lg:text-xl lg:font-bold">per month</p>
           </div>
