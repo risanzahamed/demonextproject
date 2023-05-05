@@ -1,7 +1,9 @@
 import Image from "next/image";
 import { CSSProperties } from "react";
 
-interface IPROPS {
+
+
+interface Props {
   work: {
     
     title: string;
@@ -10,7 +12,9 @@ interface IPROPS {
   };
 }
 
-const WorkingProcessCard: React.FC<IPROPS> = ({ work }) => {
+
+
+const WorkingProcessCard =  ({ work }: Props)  => {
   const {  img, title, details } = work;
 
   const imageStyle: CSSProperties = {
