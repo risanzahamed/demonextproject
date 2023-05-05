@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { CSSProperties } from "react";
 
 
@@ -7,7 +7,7 @@ interface Props {
   work: {
     
     title: string;
-    img: any;
+    img: StaticImageData;
     details: string;
   };
 }

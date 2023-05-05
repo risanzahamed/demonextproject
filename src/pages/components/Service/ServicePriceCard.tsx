@@ -2,7 +2,8 @@ import Image from "next/image";
 
 import img from "../../../assets/icons/arrow.png";
 
-interface IPROPS {
+
+interface Props {
   price: {
     id: string;
     name: string;
@@ -10,7 +11,7 @@ interface IPROPS {
   };
 }
 
-let ServicePriceCard: React.FC<IPROPS> = ({ price }) => {
+let ServicePriceCard= ({ price }: Props) => {
 
   const {id} = price
   console.log(id);
