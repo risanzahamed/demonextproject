@@ -4,7 +4,7 @@ import img from "../../../assets/icons/arrow.png";
 
 interface IPROPS {
   price: {
-    id:  number;
+    id: string;
     name: string;
     value: string;
   };
@@ -12,14 +12,15 @@ interface IPROPS {
 
 let ServicePriceCard: React.FC<IPROPS> = ({ price }) => {
 
-  console.log(price.id);
+  const {id} = price
+  console.log(id);
   return (
     <div className=" lg:my-10">
       <div className="card  bg-base-100 p-3 lg:p-6 shadow-xl">
         <div className="card-body">
           <div className="grid grid-cols-2 lg:gap-14 items-center">
             <h2 className="lg:text-5xl text-2xl font-bold lg:font-bold">
-              ${price.id}
+              ${id}
             </h2>
             <p className="lg:text-xl lg:font-bold">per month</p>
           </div>

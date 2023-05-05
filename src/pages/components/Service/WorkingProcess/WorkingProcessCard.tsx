@@ -3,7 +3,7 @@ import { CSSProperties } from "react";
 
 interface IPROPS {
   work: {
-    id: string;
+    
     title: string;
     img: any;
     details: string;

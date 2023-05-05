@@ -3,17 +3,17 @@ import ServicePriceCard from "./ServicePriceCard";
 const ServicePrice = () => {
   const prices = [
     {
-      id: 160.00,
+      id: "160.00",
       name: "Up to 100 keyphrases otimized",
       value: "Custom dashboards",
     },
     {
-      id: 170.00,
+      id: "170.00",
       name: "Up to 100 keyphrases otimized",
       value: "Custom dashboards",
     },
     {
-      id: 150.00,
+      id: "150.00",
       name: "Up to 100 keyphrases otimized",
       value: "Custom dashboards",
     },
