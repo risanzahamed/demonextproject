@@ -5,7 +5,6 @@ import { CSSProperties } from "react";
 
 interface Props {
   work: {
-    
     title: string;
     img: StaticImageData;
     details: string;
@@ -15,7 +14,7 @@ interface Props {
 
 
 const WorkingProcessCard =  ({ work }: Props)  => {
-
+console.log(work.title);
 
   const imageStyle: CSSProperties = {
     width: "200px",
