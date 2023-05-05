@@ -12,6 +12,7 @@ interface IPROPS {
 
 let ServicePriceCard: React.FC<IPROPS> = ({ price }) => {
   const { id, name, value } = price;
+  console.log(id);
   return (
     <div className=" lg:my-10">
       <div className="card  bg-base-100 p-3 lg:p-6 shadow-xl">
