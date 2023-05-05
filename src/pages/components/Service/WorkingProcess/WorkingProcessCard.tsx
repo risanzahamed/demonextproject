@@ -11,7 +11,7 @@ interface IPROPS {
 }
 
 const WorkingProcessCard: React.FC<IPROPS> = ({ work }) => {
-  const { id, img, title, details } = work;
+  const {  img, title, details } = work;
 
   const imageStyle: CSSProperties = {
     width: "200px",

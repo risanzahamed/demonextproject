@@ -3,17 +3,17 @@ import ServicePriceCard from "./ServicePriceCard";
 const ServicePrice = () => {
   const prices = [
     {
-      id: "160.00",
+      money: "160.00",
       name: "Up to 100 keyphrases otimized",
       value: "Custom dashboards",
     },
     {
-      id: "170.00",
+      money: "170.00",
       name: "Up to 100 keyphrases otimized",
       value: "Custom dashboards",
     },
     {
-      id: "150.00",
+      money: "150.00",
       name: "Up to 100 keyphrases otimized",
       value: "Custom dashboards",
     },
@@ -32,7 +32,10 @@ const ServicePrice = () => {
 
       <div className="grid lg:grid-cols-3 gap-8">
         {prices.map((price) => (
-          <ServicePriceCard key={price.id} price={price}></ServicePriceCard>
+          <ServicePriceCard 
+          key={price.money} 
+          price={price}
+          ></ServicePriceCard>
         ))}
       </div>
     </div>
