@@ -5,6 +5,7 @@ import { CSSProperties } from "react";
 
 interface Props {
   work: {
+    
     title: string;
     img: StaticImageData;
     details: string;
@@ -14,7 +15,7 @@ interface Props {
 
 
 const WorkingProcessCard =  ({ work }: Props)  => {
-console.log(work.title);
+  const {  img, title, details } = work;
 
   const imageStyle: CSSProperties = {
     width: "200px",
@@ -26,7 +27,7 @@ console.log(work.title);
       <div className="w-96 p-5 flex flex-col justify-center items-center hover:border border-yellow-800">
         <div>
           <Image
-            src={work.img}
+            src={img}
             width={200}
             height={250}
             alt=""
@@ -37,11 +38,11 @@ console.log(work.title);
 
         <div>
           <h1 className="text-center my-5 lg:my-5 text-xl font-bold">
-            {work.title}
+            {title}
           </h1>
         </div>
         <div>
-          <p className="text-center">{work.details.slice(0, 150)}..</p>
+          <p className="text-center">{details.slice(0, 150)}..</p>
         </div>
       </div>
     </div>
