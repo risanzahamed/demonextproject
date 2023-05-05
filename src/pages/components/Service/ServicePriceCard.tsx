@@ -4,7 +4,7 @@ import img from "../../../assets/icons/arrow.png";
 
 interface IPROPS {
   price: {
-    money: string;
+    id: string;
     name: string;
     value: string;
   };
@@ -19,7 +19,7 @@ let ServicePriceCard: React.FC<IPROPS> = ({ price }) => {
         <div className="card-body">
           <div className="grid grid-cols-2 lg:gap-14 items-center">
             <h2 className="lg:text-5xl text-2xl font-bold lg:font-bold">
-              ${price.money}
+              ${price.id}
             </h2>
             <p className="lg:text-xl lg:font-bold">per month</p>
           </div>
