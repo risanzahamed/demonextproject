@@ -31,9 +31,9 @@ const ServicePrice = () => {
       </div>
 
       <div className="grid lg:grid-cols-3 gap-8">
-        {prices.map((price) => (
+        {prices.map((price, money) => (
           <ServicePriceCard 
-          key={price.money} 
+          key={money} 
           price={price}
           ></ServicePriceCard>
         ))}

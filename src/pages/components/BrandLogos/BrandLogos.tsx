@@ -64,7 +64,7 @@ const BrandLogos = () => {
           <div className="flex flex-shrink-0 gap-8 justify-around items-center min-w-full marquee-group">
             {/* m-g */}
             {data.map((logo, id) => (
-              <div className="grid animate place-items-center text-center" key='1'>
+              <div className="grid animate place-items-center text-center" key={id}>
                 <div className="w-14 h-14">
                   <Image
                     src={logo?.img}
@@ -83,7 +83,7 @@ const BrandLogos = () => {
               </div>
             ))}
             {data.map((logo, id) => (
-              <div className="grid animate place-items-center text-center" key='2'>
+              <div className="grid animate place-items-center text-center" key={id}>
                 <div className="w-14 h-14">
                   <Image
                     src={logo?.img}
@@ -102,7 +102,7 @@ const BrandLogos = () => {
               </div>
             ))}
             {data.map((logo, id) => (
-              <div className="grid animate place-items-center text-center" key='3'>
+              <div className="grid animate place-items-center text-center" key={id}>
                 <div className="w-14 h-14">
                   <Image
                     src={logo?.img}
@@ -121,7 +121,7 @@ const BrandLogos = () => {
               </div>
             ))}
             {data.map((logo, id) => (
-              <div className="grid animate place-items-center text-center" key='4'>
+              <div className="grid animate place-items-center text-center" key={id}>
                 <div className="w-14 h-14">
                   <Image
                     src={logo?.img}
@@ -140,7 +140,7 @@ const BrandLogos = () => {
               </div>
             ))}
             {data.map((logo, id) => (
-              <div className="grid animate place-items-center text-center" key='5'>
+              <div className="grid animate place-items-center text-center" key={id}>
                 <div className="w-14 h-14">
                   <Image
                     src={logo?.img}
@@ -159,7 +159,7 @@ const BrandLogos = () => {
               </div>
             ))}
             {data.map((logo, id) => (
-              <div className="grid animate place-items-center text-center" key='6'>
+              <div className="grid animate place-items-center text-center" key={id}>
                 <div className="w-14 h-14">
                   <Image
                     src={logo?.img}

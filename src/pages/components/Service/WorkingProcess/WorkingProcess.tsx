@@ -40,8 +40,8 @@ const WorkingProcess = () => {
         </p>
       </div>
       <div className="grid lg:grid-cols-3 gap-10 lg:mx-32 lg:mb-32">
-        {works.map((work) => (
-          <WorkingProcessCard work={work} key={work.id}></WorkingProcessCard>
+        {works.map((work, id) => (
+          <WorkingProcessCard work={work} key={id}></WorkingProcessCard>
         ))}
       </div>
     </div>
