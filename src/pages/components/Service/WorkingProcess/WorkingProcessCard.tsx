@@ -15,7 +15,7 @@ interface Props {
 
 
 const WorkingProcessCard =  ({ work }: Props)  => {
-  const {   title, details } = work;
+
 
   const imageStyle: CSSProperties = {
     width: "200px",
@@ -38,11 +38,11 @@ const WorkingProcessCard =  ({ work }: Props)  => {
 
         <div>
           <h1 className="text-center my-5 lg:my-5 text-xl font-bold">
-            {title}
+            {work.title}
           </h1>
         </div>
         <div>
-          <p className="text-center">{details.slice(0, 150)}..</p>
+          <p className="text-center">{work.details.slice(0, 150)}..</p>
         </div>
       </div>
     </div>
