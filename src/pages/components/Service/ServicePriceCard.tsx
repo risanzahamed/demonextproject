@@ -5,7 +5,7 @@ import img from "../../../assets/icons/arrow.png";
 
 interface Props {
   price: {
-    id: string;
+    _id: string;
     name: string;
     value: string;
   };
@@ -13,6 +13,7 @@ interface Props {
 
 let ServicePriceCard= ({ price }: Props) => {
 
+  console.log(price._id);
 
   return (
     <div className=" lg:my-10">
@@ -20,7 +21,7 @@ let ServicePriceCard= ({ price }: Props) => {
         <div className="card-body">
           <div className="grid grid-cols-2 lg:gap-14 items-center">
             <h2 className="lg:text-5xl text-2xl font-bold lg:font-bold">
-              ${price.id}
+              ${price._id}
             </h2>
             <p className="lg:text-xl lg:font-bold">per month</p>
           </div>
